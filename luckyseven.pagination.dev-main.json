@@ -1,0 +1,27 @@
+{
+  "manifests": {
+    "luckyseven/pagination": {
+      "manifest": {
+        "bundles": {
+          "Luckyseven\\Bundle\\LuckysevenPaginationBundle\\LuckysevenPaginationBundle": [
+            "all"
+          ]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
+        }
+      },
+      "files": {
+        "config/packages/luckyseven_pagination.yaml": {
+          "contents": [
+            "luckyseven_pagination:",
+            "  default_size: 10",
+            "  allowed_sizes: '5,10,25,50'"
+          ],
+          "executable": false
+        }
+      },
+      "ref": "5b2157bcd19889fds5765e42f552ad36529a07a7"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "recipes": {
+        "luckyseven/pagination": [
+            "1.0"
+        ]
+    },
+    "branch": "main",
+    "is_contrib": true,
+    "_links": {
+        "repository": "github.com/giacomoto/pagination-recipes",
+        "origin_template": "{package}:{version}@github.com/giacomoto/pagination-recipes:main",
+        "recipe_template": "https://api.github.com/repos/giacomoto/pagination-recipes/contents/{package_dotted}.{version}.json"
+    }
+}
